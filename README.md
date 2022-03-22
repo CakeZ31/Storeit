@@ -1,6 +1,4 @@
 # Storeit
-===
-
 ## Favorite Existing Apps - List
 1. StockX
 1. BUMP
