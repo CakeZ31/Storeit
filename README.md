@@ -1,5 +1,4 @@
 # Storeit
-Mobile App Dev - App Brainstorming Example
 ===
 
 ## Favorite Existing Apps - List
