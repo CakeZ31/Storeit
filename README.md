@@ -1,5 +1,6 @@
 # Storeit
-## Favorite Existing Apps - List
+
+## Favorite Existing Apps -List
 1. StockX
 1. BUMP
 1. GOAT
@@ -17,6 +18,51 @@
    - **Market:** Anyone that is looking to either purchase or sell shoes can utilize the app. Ability become a seller after undergoing an authentication process.
    - **Habit:** There is daily updates and new drop notification where any seller and buyer can monitor the prices of the shoes
    - **Scope:** GOAT started off as a smaller app for inventory 
+
+## Product Spec
+### 1. User Stories
+
+**Required Must-have Stories**
+
+* User logs in with their employee ID to go to the next screen
+* User has a waiting list of customers where they can add and delete customers as they leave. 
+* User will be able to see the inventory of shoes with the sizes and prices. 
+* Simple Profile page for each user
+
+**Optional Nice-to-have Stories**
+
+* Search engine through the inventory to make the process faster.
+* A page of the description of the shoes with a bigger picture for the customer to view.
+* Call function for customers on the waiting list
+* Shoe filter to find the shoes a lot faster
+
+### 2. Screen Archetypes
+
+* Login 
+* Waiting List - User signs in with their employee ID and is send to this waiting list
+   * Upon logging in the employee will be prompted with the waiting list where they can view, add and delete customers off the waiting list 
+* Shoe Inventory View - Shows the shoes that are currently in their inventory
+   * When selecting a customer, the employee will be able to see the shoes that will be displayed with the shoe size and price. 
+* Profile Screen 
+   * Shows the picture of the employee and who they are currently helping
+
+### 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+
+* Log in
+* Customer waitlist
+* Inventory
+* Profile account
+
+Optional:
+* Shoe Description with larger photo and description
+
+**Flow Navigation** (Screen to Screen)
+* Log-in -> Customer Waiting list
+* Customer Selected -> Shoe viewing list
+* Drop down menu -> Profile account 
+
 
 ## New App Ideas - List
 1. User friendly UI
