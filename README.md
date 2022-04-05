@@ -99,3 +99,27 @@ Optional:
 
 ![](https://i.imgur.com/uTvyGMF.png)
 
+## Schema 
+### Models
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | itemId        | Number   | id for item listed |
+   | itemName      | String   | name of product |
+   | image         | File     | image of product |
+   | description   | String   | descruption of product |
+   | stockRemaining| Number   | amount of product still in stock |
+   | employeeID    | Pointer  | ID that points to an employee user |
+   | customerName  | String   | name of customer that is next in line |
+   | phoneNumber   | String   | phone number of customer |
+### Networking
+#### List of network requests by screen
+   - Log In Screen
+      - (Read/GET) If cridentials match an existing employee ID
+   - Product Listing Screen
+      - (Read/GET) Create a new post object
+      - (Update/PUT) Change quantity of items still available
+   - Waitlist Screen
+      - (Read/GET) get current list of customers waiting
+      - (Delete) removes customer when serviced
